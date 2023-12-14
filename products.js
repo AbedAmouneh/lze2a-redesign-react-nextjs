@@ -55,7 +55,8 @@ const bottles = [
         image: Shaffe500mLImg,
         decription: "Quench your thirst in style with the Shaffe stainless steel water bottle. Crafted from durable 18/8 stainless steel, this sleek and stylish bottle is perfect for keeping your water cold and refreshing all day long. The bottle's white exterior provides a clean and modern look, while the BPA-free construction ensures your drinks are safe and free of harmful chemicals.",
         color: "#ADECE8",
-        rating: 5
+        rating: 5,
+        category: "bottles"
     },
     {
         id: 2,
@@ -64,7 +65,8 @@ const bottles = [
         image: AyamZaman500mLImg,
         decription: "Quench your thirst in style with the Shaffe stainless steel water bottle. Crafted from durable 18/8 stainless steel, this sleek and stylish bottle is perfect for keeping your water cold and refreshing all day long. The bottle's white exterior provides a clean and modern look, while the BPA-free construction ensures your drinks are safe and free of harmful chemicals.",
         color: "#FFC124",
-        rating: 4
+        rating: 4,
+        category: "bottles"
     },
     {
         id: 3,
@@ -73,7 +75,8 @@ const bottles = [
         image: EvilEye500mLImg,
         decription: "Quench your thirst in style with the Shaffe stainless steel water bottle. Crafted from durable 18/8 stainless steel, this sleek and stylish bottle is perfect for keeping your water cold and refreshing all day long. The bottle's white exterior provides a clean and modern look, while the BPA-free construction ensures your drinks are safe and free of harmful chemicals.",
         color: "#08B1CD",
-        rating: 3
+        rating: 3,
+        category: "bottles"
     },
     {
         id: 4,
@@ -82,7 +85,8 @@ const bottles = [
         image: AalHelweWelMorra500mLImg,
         decription: "Quench your thirst in style with the Shaffe stainless steel water bottle. Crafted from durable 18/8 stainless steel, this sleek and stylish bottle is perfect for keeping your water cold and refreshing all day long. The bottle's white exterior provides a clean and modern look, while the BPA-free construction ensures your drinks are safe and free of harmful chemicals.",
         color: "#ED6F22",
-        rating: 3
+        rating: 3,
+        category: "bottles"
     },
     {
         id: 5,
@@ -91,7 +95,8 @@ const bottles = [
         image: LebaneseFlowerb500mLImg,
         decription: "Quench your thirst in style with the Shaffe stainless steel water bottle. Crafted from durable 18/8 stainless steel, this sleek and stylish bottle is perfect for keeping your water cold and refreshing all day long. The bottle's white exterior provides a clean and modern look, while the BPA-free construction ensures your drinks are safe and free of harmful chemicals.",
         color: "#ADECE8",
-        rating: 5
+        rating: 5,
+        category: "bottles"
     },
     {
         id: 6,
@@ -99,8 +104,9 @@ const bottles = [
         price: 15,
         image: BouyoutBeirut500mLImg,
         decription: "Quench your thirst in style with the Shaffe stainless steel water bottle. Crafted from durable 18/8 stainless steel, this sleek and stylish bottle is perfect for keeping your water cold and refreshing all day long. The bottle's white exterior provides a clean and modern look, while the BPA-free construction ensures your drinks are safe and free of harmful chemicals.",
-        color: "#ED6F22",
-        rating: 4
+        color: "#FFC124",
+        rating: 4,
+        category: "bottles"
     },{
         id: 7,
         name: "Ghazel El Banat 500mL",
@@ -108,7 +114,8 @@ const bottles = [
         image: GhazelElBanat500mLImg,
         decription: "Quench your thirst in style with the Shaffe stainless steel water bottle. Crafted from durable 18/8 stainless steel, this sleek and stylish bottle is perfect for keeping your water cold and refreshing all day long. The bottle's white exterior provides a clean and modern look, while the BPA-free construction ensures your drinks are safe and free of harmful chemicals.",
         color: "#08B1CD",
-        rating: 3
+        rating: 3,
+        category: "bottles"
     },
     {
         id: 8,
@@ -117,7 +124,8 @@ const bottles = [
         image: Beirut500mLImg,
         decription: "Quench your thirst in style with the Shaffe stainless steel water bottle. Crafted from durable 18/8 stainless steel, this sleek and stylish bottle is perfect for keeping your water cold and refreshing all day long. The bottle's white exterior provides a clean and modern look, while the BPA-free construction ensures your drinks are safe and free of harmful chemicals.",
         color: "#ED6F22",
-        rating: 4
+        rating: 4,
+        category: "bottles"
     }
 ]
 
@@ -129,7 +137,8 @@ const tumblers = [
         image: LebanesePattern500mLImg,
         decription: "at augue eget arcu dictum varius duis at consectetur lorem donec massa sapien faucibus et molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget egestas purus viverra accumsan in nisl nisi scelerisque eu ultrices vitae auctor eu augue ut lectus arcu bibendum at varius vel pharetra vel turpis nunc eget lorem dolor.",
         color: "#ADECE8",
-        rating: 5
+        rating: 5,
+        category: "tumblers"
     },
     {
         id: 10,
@@ -138,7 +147,8 @@ const tumblers = [
         image: FunkyLebanese500mLImg,
         decription: "at augue eget arcu dictum varius duis at consectetur lorem donec massa sapien faucibus et molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget egestas purus viverra accumsan in nisl nisi scelerisque eu ultrices vitae auctor eu augue ut lectus arcu bibendum at varius vel pharetra vel turpis nunc eget lorem dolor.",
         color: "#FFC124",
-        rating: 4
+        rating: 4,
+        category: "tumblers"
     },
     {
         id: 11,
@@ -147,7 +157,8 @@ const tumblers = [
         image: LebaneseFlowert500mLImg,
         decription: "at augue eget arcu dictum varius duis at consectetur lorem donec massa sapien faucibus et molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget egestas purus viverra accumsan in nisl nisi scelerisque eu ultrices vitae auctor eu augue ut lectus arcu bibendum at varius vel pharetra vel turpis nunc eget lorem dolor.",
         color: "#08B1CD",
-        rating: 4
+        rating: 4,
+        category: "tumblers"
     },
     {
         id: 12,
@@ -156,7 +167,8 @@ const tumblers = [
         image: ShaffeFlower500mLImg,
         decription: "at augue eget arcu dictum varius duis at consectetur lorem donec massa sapien faucibus et molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget egestas purus viverra accumsan in nisl nisi scelerisque eu ultrices vitae auctor eu augue ut lectus arcu bibendum at varius vel pharetra vel turpis nunc eget lorem dolor.",
         color: "#ED6F22",
-        rating: 3
+        rating: 3,
+        category: "tumblers"
     }
 ]
 
@@ -168,7 +180,8 @@ const mirrors = [
         image: NazretHasadImg,
         decription: "at augue eget arcu dictum varius duis at consectetur lorem donec massa sapien faucibus et molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget egestas purus viverra accumsan in nisl nisi scelerisque eu ultrices vitae auctor eu augue ut lectus arcu bibendum at varius vel pharetra vel turpis nunc eget lorem dolor.",
         color: "#ADECE8",
-        rating: 3
+        rating: 3,
+        category: "mirrors"
     },
     {
         id: 14,
@@ -177,7 +190,8 @@ const mirrors = [
         image: BouyoutBeirutImg,
         decription: "at augue eget arcu dictum varius duis at consectetur lorem donec massa sapien faucibus et molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget egestas purus viverra accumsan in nisl nisi scelerisque eu ultrices vitae auctor eu augue ut lectus arcu bibendum at varius vel pharetra vel turpis nunc eget lorem dolor.",
         color: "#FFC124",
-        rating: 4
+        rating: 4,
+        category: "mirrors"
     },
     {
         id: 15,
@@ -186,7 +200,8 @@ const mirrors = [
         image: JamilaImg,
         decription: "at augue eget arcu dictum varius duis at consectetur lorem donec massa sapien faucibus et molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget egestas purus viverra accumsan in nisl nisi scelerisque eu ultrices vitae auctor eu augue ut lectus arcu bibendum at varius vel pharetra vel turpis nunc eget lorem dolor.",
         color: "#08B1CD",
-        rating: 5
+        rating: 5,
+        category: "mirrors"
     },
     {
         id: 16,
@@ -195,7 +210,8 @@ const mirrors = [
         image: BeirutmImg,
         decription: "at augue eget arcu dictum varius duis at consectetur lorem donec massa sapien faucibus et molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget egestas purus viverra accumsan in nisl nisi scelerisque eu ultrices vitae auctor eu augue ut lectus arcu bibendum at varius vel pharetra vel turpis nunc eget lorem dolor.",
         color: "#ED6F22",
-        rating: 4
+        rating: 4,
+        category: "mirrors"
     }
 ]
 
@@ -207,7 +223,8 @@ const earrings = [
         image: BonjusImg,
         decription: "at augue eget arcu dictum varius duis at consectetur lorem donec massa sapien faucibus et molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget egestas purus viverra accumsan in nisl nisi scelerisque eu ultrices vitae auctor eu augue ut lectus arcu bibendum at varius vel pharetra vel turpis nunc eget lorem dolor.",
         color: "#ADECE8",
-        rating: 5
+        rating: 5,
+        category: "earrings"
     },
     {
         id: 18,
@@ -216,7 +233,8 @@ const earrings = [
         image: LebaneseFlowerEarringsImg,
         decription: "at augue eget arcu dictum varius duis at consectetur lorem donec massa sapien faucibus et molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget egestas purus viverra accumsan in nisl nisi scelerisque eu ultrices vitae auctor eu augue ut lectus arcu bibendum at varius vel pharetra vel turpis nunc eget lorem dolor.",
         color: "#FFC124",
-        rating: 2
+        rating: 2,
+        category: "earrings"
     },
     {
         id: 19,
@@ -225,7 +243,8 @@ const earrings = [
         image: ArgileImg,
         decription: "at augue eget arcu dictum varius duis at consectetur lorem donec massa sapien faucibus et molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget egestas purus viverra accumsan in nisl nisi scelerisque eu ultrices vitae auctor eu augue ut lectus arcu bibendum at varius vel pharetra vel turpis nunc eget lorem dolor.",
         color: "#08B1CD",
-        rating: 3
+        rating: 3,
+        category: "earrings"
     },
     {
         id: 20,
@@ -234,7 +253,8 @@ const earrings = [
         image: PinkBirdImg,
         decription: "at augue eget arcu dictum varius duis at consectetur lorem donec massa sapien faucibus et molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget egestas purus viverra accumsan in nisl nisi scelerisque eu ultrices vitae auctor eu augue ut lectus arcu bibendum at varius vel pharetra vel turpis nunc eget lorem dolor.",
         color: "#ED6F22",
-        rating: 4
+        rating: 4,
+        category: "earrings"
     },
     {
         id: 21,
@@ -243,7 +263,8 @@ const earrings = [
         image: LemonImg,
         decription: "at augue eget arcu dictum varius duis at consectetur lorem donec massa sapien faucibus et molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget egestas purus viverra accumsan in nisl nisi scelerisque eu ultrices vitae auctor eu augue ut lectus arcu bibendum at varius vel pharetra vel turpis nunc eget lorem dolor.",
         color: "#ADECE8",
-        rating: 5
+        rating: 5,
+        category: "earrings"
     },
     {
         id: 22,
@@ -252,7 +273,8 @@ const earrings = [
         image: PineappleImg,
         decription: "at augue eget arcu dictum varius duis at consectetur lorem donec massa sapien faucibus et molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget egestas purus viverra accumsan in nisl nisi scelerisque eu ultrices vitae auctor eu augue ut lectus arcu bibendum at varius vel pharetra vel turpis nunc eget lorem dolor.",
         color: "#FFC124",
-        rating: 4
+        rating: 4,
+        category: "earrings"
     },
     {
         id: 23,
@@ -261,7 +283,8 @@ const earrings = [
         image: PinkWatermelonImg,
         decription: "at augue eget arcu dictum varius duis at consectetur lorem donec massa sapien faucibus et molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget egestas purus viverra accumsan in nisl nisi scelerisque eu ultrices vitae auctor eu augue ut lectus arcu bibendum at varius vel pharetra vel turpis nunc eget lorem dolor.",
         color: "#08B1CD",
-        rating: 5
+        rating: 5,
+        category: "earrings"
     },
     {
         id: 24,
@@ -270,7 +293,8 @@ const earrings = [
         image: HayatHelwaImg,
         decription: "at augue eget arcu dictum varius duis at consectetur lorem donec massa sapien faucibus et molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget egestas purus viverra accumsan in nisl nisi scelerisque eu ultrices vitae auctor eu augue ut lectus arcu bibendum at varius vel pharetra vel turpis nunc eget lorem dolor.",
         color: "#ED6F22",
-        rating: 4
+        rating: 4,
+        category: "earrings"
     }
 ]
 
@@ -282,7 +306,8 @@ const popSockets = [
         image: AyamZamanImg,
         decription: "at augue eget arcu dictum varius duis at consectetur lorem donec massa sapien faucibus et molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget egestas purus viverra accumsan in nisl nisi scelerisque eu ultrices vitae auctor eu augue ut lectus arcu bibendum at varius vel pharetra vel turpis nunc eget lorem dolor.",
         color: "#ADECE8",
-        rating: 4
+        rating: 4,
+        category: "pop-sockets"
     },
     {
         id: 26,
@@ -291,7 +316,8 @@ const popSockets = [
         image: ToutToutAaBeirutImg,
         decription: "at augue eget arcu dictum varius duis at consectetur lorem donec massa sapien faucibus et molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget egestas purus viverra accumsan in nisl nisi scelerisque eu ultrices vitae auctor eu augue ut lectus arcu bibendum at varius vel pharetra vel turpis nunc eget lorem dolor.",
         color: "#FFC124",
-        rating: 2
+        rating: 2,
+        category: "pop-sockets"
     },
     {
         id: 27,
@@ -300,7 +326,8 @@ const popSockets = [
         image: IFeelGoodImg,
         decription: "at augue eget arcu dictum varius duis at consectetur lorem donec massa sapien faucibus et molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget egestas purus viverra accumsan in nisl nisi scelerisque eu ultrices vitae auctor eu augue ut lectus arcu bibendum at varius vel pharetra vel turpis nunc eget lorem dolor.",
         color: "#08B1CD",
-        rating: 4
+        rating: 4,
+        category: "pop-sockets"
     },
     {
         id: 28,
@@ -309,7 +336,8 @@ const popSockets = [
         image: Ta2HanakImg,
         decription: "at augue eget arcu dictum varius duis at consectetur lorem donec massa sapien faucibus et molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget egestas purus viverra accumsan in nisl nisi scelerisque eu ultrices vitae auctor eu augue ut lectus arcu bibendum at varius vel pharetra vel turpis nunc eget lorem dolor.",
         color: "#ED6F22",
-        rating: 4
+        rating: 4,
+        category: "pop-sockets"
     },
     {
         id: 29,
@@ -318,7 +346,8 @@ const popSockets = [
         image: BalaWalaShiImg,
         decription: "at augue eget arcu dictum varius duis at consectetur lorem donec massa sapien faucibus et molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget egestas purus viverra accumsan in nisl nisi scelerisque eu ultrices vitae auctor eu augue ut lectus arcu bibendum at varius vel pharetra vel turpis nunc eget lorem dolor.",
         color: "#ADECE8",
-        rating: 2
+        rating: 2,
+        category: "pop-sockets"
     },
     {
         id: 30,
@@ -327,7 +356,8 @@ const popSockets = [
         image: BeirutpsImg,
         decription: "at augue eget arcu dictum varius duis at consectetur lorem donec massa sapien faucibus et molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget egestas purus viverra accumsan in nisl nisi scelerisque eu ultrices vitae auctor eu augue ut lectus arcu bibendum at varius vel pharetra vel turpis nunc eget lorem dolor.",
         color: "#FFC124",
-        rating: 5
+        rating: 5,
+        category: "pop-sockets"
     },
     {
         id: 31,
@@ -336,7 +366,8 @@ const popSockets = [
         image: AalHelweWelMorraImg,
         decription: "at augue eget arcu dictum varius duis at consectetur lorem donec massa sapien faucibus et molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget egestas purus viverra accumsan in nisl nisi scelerisque eu ultrices vitae auctor eu augue ut lectus arcu bibendum at varius vel pharetra vel turpis nunc eget lorem dolor.",
         color: "#08B1CD",
-        rating: 4
+        rating: 4,
+        category: "pop-sockets"
     },
     {
         id: 32,
@@ -345,7 +376,8 @@ const popSockets = [
         image: HotAsCoffeeImg,
         decription: "at augue eget arcu dictum varius duis at consectetur lorem donec massa sapien faucibus et molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget egestas purus viverra accumsan in nisl nisi scelerisque eu ultrices vitae auctor eu augue ut lectus arcu bibendum at varius vel pharetra vel turpis nunc eget lorem dolor.",
         color: "#ED6F22",
-        rating: 5
+        rating: 5,
+        category: "pop-sockets"
     }
 ]
 
@@ -357,7 +389,8 @@ const pouches = [
         image: BekrahkonKelkonImg,
         decription: "at augue eget arcu dictum varius duis at consectetur lorem donec massa sapien faucibus et molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget egestas purus viverra accumsan in nisl nisi scelerisque eu ultrices vitae auctor eu augue ut lectus arcu bibendum at varius vel pharetra vel turpis nunc eget lorem dolor.",
         color: "#ADECE8",
-        rating: 3
+        rating: 3,
+        category: "pouches"
     },
     {
         id: 34,
@@ -366,7 +399,8 @@ const pouches = [
         image: KeloRayehImg,
         decription: "at augue eget arcu dictum varius duis at consectetur lorem donec massa sapien faucibus et molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget egestas purus viverra accumsan in nisl nisi scelerisque eu ultrices vitae auctor eu augue ut lectus arcu bibendum at varius vel pharetra vel turpis nunc eget lorem dolor.",
         color: "#FFC124",
-        rating: 5
+        rating: 5,
+        category: "pouches"
     },
     {
         id: 35,
@@ -375,7 +409,8 @@ const pouches = [
         image: BeirutPouchImg,
         decription: "at augue eget arcu dictum varius duis at consectetur lorem donec massa sapien faucibus et molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget egestas purus viverra accumsan in nisl nisi scelerisque eu ultrices vitae auctor eu augue ut lectus arcu bibendum at varius vel pharetra vel turpis nunc eget lorem dolor.",
         color: "#08B1CD",
-        rating: 4
+        rating: 4,
+        category: "pouches"
     },
     {
         id: 36,
@@ -384,7 +419,8 @@ const pouches = [
         image: BoumeMahdoumeImg,
         decription: "at augue eget arcu dictum varius duis at consectetur lorem donec massa sapien faucibus et molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget egestas purus viverra accumsan in nisl nisi scelerisque eu ultrices vitae auctor eu augue ut lectus arcu bibendum at varius vel pharetra vel turpis nunc eget lorem dolor.",
         color: "#ED6F22",
-        rating: 4
+        rating: 4,
+        category: "pouches"
     },
     {
         id: 37,
@@ -393,7 +429,8 @@ const pouches = [
         image: BeirutColorfulImg,
         decription: "at augue eget arcu dictum varius duis at consectetur lorem donec massa sapien faucibus et molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget egestas purus viverra accumsan in nisl nisi scelerisque eu ultrices vitae auctor eu augue ut lectus arcu bibendum at varius vel pharetra vel turpis nunc eget lorem dolor.",
         color: "#ADECE8",
-        rating: 4
+        rating: 4,
+        category: "pouches"
     },
     {
         id: 38,
@@ -402,7 +439,8 @@ const pouches = [
         image: EnteElOssaKellaImg,
         decription: "at augue eget arcu dictum varius duis at consectetur lorem donec massa sapien faucibus et molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget egestas purus viverra accumsan in nisl nisi scelerisque eu ultrices vitae auctor eu augue ut lectus arcu bibendum at varius vel pharetra vel turpis nunc eget lorem dolor.",
         color: "#FFC124",
-        rating: 4
+        rating: 4,
+        category: "pouches"
     },
     {
         id: 39,
@@ -411,7 +449,8 @@ const pouches = [
         image: AlHayatHelwaPouchImg,
         decription: "at augue eget arcu dictum varius duis at consectetur lorem donec massa sapien faucibus et molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget egestas purus viverra accumsan in nisl nisi scelerisque eu ultrices vitae auctor eu augue ut lectus arcu bibendum at varius vel pharetra vel turpis nunc eget lorem dolor.",
         color: "#08B1CD",
-        rating: 4
+        rating: 4,
+        category: "pouches"
     },
     {
         id: 40,
@@ -420,7 +459,8 @@ const pouches = [
         image: BalaWalaShiPouchImg,
         decription: "at augue eget arcu dictum varius duis at consectetur lorem donec massa sapien faucibus et molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget egestas purus viverra accumsan in nisl nisi scelerisque eu ultrices vitae auctor eu augue ut lectus arcu bibendum at varius vel pharetra vel turpis nunc eget lorem dolor.",
         color: "#ED6F22",
-        rating: 5
+        rating: 5,
+        category: "pouches"
     }
 ]
 
@@ -432,7 +472,8 @@ const toteBags = [
         image: BalaWalaShiBagImg,
         decription: "at augue eget arcu dictum varius duis at consectetur lorem donec massa sapien faucibus et molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget egestas purus viverra accumsan in nisl nisi scelerisque eu ultrices vitae auctor eu augue ut lectus arcu bibendum at varius vel pharetra vel turpis nunc eget lorem dolor.",
         color: "#ADECE8",
-        rating: 3
+        rating: 3,
+        category: "tote-bags"
     },
     {
         id: 42,
@@ -441,7 +482,8 @@ const toteBags = [
         image: BekrahkonKelkonBagImg,
         decription: "at augue eget arcu dictum varius duis at consectetur lorem donec massa sapien faucibus et molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget egestas purus viverra accumsan in nisl nisi scelerisque eu ultrices vitae auctor eu augue ut lectus arcu bibendum at varius vel pharetra vel turpis nunc eget lorem dolor.",
         color: "#FFC124",
-        rating: 4
+        rating: 4,
+        category: "tote-bags"
     },
     {
         id: 43,
@@ -450,7 +492,8 @@ const toteBags = [
         image: BeirutBagImg,
         decription: "at augue eget arcu dictum varius duis at consectetur lorem donec massa sapien faucibus et molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget egestas purus viverra accumsan in nisl nisi scelerisque eu ultrices vitae auctor eu augue ut lectus arcu bibendum at varius vel pharetra vel turpis nunc eget lorem dolor.",
         color: "#08B1CD",
-        rating: 5
+        rating: 5,
+        category: "tote-bags"
     },
     {
         id: 44,
@@ -459,7 +502,8 @@ const toteBags = [
         image: AlHayatHelwaBagImg,
         decription: "at augue eget arcu dictum varius duis at consectetur lorem donec massa sapien faucibus et molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget egestas purus viverra accumsan in nisl nisi scelerisque eu ultrices vitae auctor eu augue ut lectus arcu bibendum at varius vel pharetra vel turpis nunc eget lorem dolor.",
         color: "#ED6F22",
-        rating: 4
+        rating: 4,
+        category: "tote-bags"
     }
 ]
 
@@ -471,7 +515,8 @@ const magnets = [
         image: EvilEye2,
         decription: "at augue eget arcu dictum varius duis at consectetur lorem donec massa sapien faucibus et molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget egestas purus viverra accumsan in nisl nisi scelerisque eu ultrices vitae auctor eu augue ut lectus arcu bibendum at varius vel pharetra vel turpis nunc eget lorem dolor.",
         color: "#ADECE8",
-        rating: 3
+        rating: 3,
+        category: "magnets"
     },
     {
         id: 46,
@@ -480,7 +525,8 @@ const magnets = [
         image: Chiclets,
         decription: "at augue eget arcu dictum varius duis at consectetur lorem donec massa sapien faucibus et molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget egestas purus viverra accumsan in nisl nisi scelerisque eu ultrices vitae auctor eu augue ut lectus arcu bibendum at varius vel pharetra vel turpis nunc eget lorem dolor.",
         color: "#FFC124",
-        rating: 4
+        rating: 4,
+        category: "magnets"
     },
     {
         id: 47,
@@ -489,7 +535,8 @@ const magnets = [
         image: AalHelweWelMorraMagnetImg,
         decription: "at augue eget arcu dictum varius duis at consectetur lorem donec massa sapien faucibus et molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget egestas purus viverra accumsan in nisl nisi scelerisque eu ultrices vitae auctor eu augue ut lectus arcu bibendum at varius vel pharetra vel turpis nunc eget lorem dolor.",
         color: "#08B1CD",
-        rating: 5
+        rating: 5,
+        category: "magnets"
     },
     {
         id: 48,
@@ -498,7 +545,8 @@ const magnets = [
         image: Tarboush,
         decription: "at augue eget arcu dictum varius duis at consectetur lorem donec massa sapien faucibus et molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget egestas purus viverra accumsan in nisl nisi scelerisque eu ultrices vitae auctor eu augue ut lectus arcu bibendum at varius vel pharetra vel turpis nunc eget lorem dolor.",
         color: "#ED6F22",
-        rating: 4
+        rating: 4,
+        category: "magnets"
     }
 ]
 

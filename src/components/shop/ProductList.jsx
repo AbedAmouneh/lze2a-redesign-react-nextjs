@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import ProductItem from "./ProductItem.jsx";
-import { products } from "../products.js"
+import { products } from "../../../products.js"
 
 function ProductList({n}) {
 
@@ -14,6 +14,7 @@ function ProductList({n}) {
             name={item.name}
             price={item.price}
             color={item.color}
+            category={item.category}
             />))}
         </div>
 );

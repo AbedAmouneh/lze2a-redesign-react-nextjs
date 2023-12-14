@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
-import Shop from './Shop.jsx'
+import Shop from './components/shop/Shop.jsx'
 
 function App() {
 

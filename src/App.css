@@ -90,11 +90,47 @@ button{
     line-height: normal; 
 }
 .product img {
-
+    width: 70%;
+    margin-bottom: 5px;
 }
 .product .img-container {
-    
+    display: flex;
+    align-items: end;
+    align-content: end;
+    justify-items: center;
+    justify-content: center;
 }
 .background-color-item {
-
+    position: absolute;
+    z-index: -1;
+    width: 15%;
+    transition: 300ms ease-in-out;
+}
+.bottles .background-color-item {
+    height: 17vw
+}
+.tumblers .background-color-item {
+    height: 14vw;
+}
+.mirrors .background-color-item {
+    height: 12vw
+}
+.mirrors img {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.earrings .background-color-item {
+    height: 10vw;
+}
+.pop-sockets .background-color-item {
+    height: 10vw;
+}
+.pouches .background-color-item {
+    height: 8vw;
+}
+.tote-bags .background-color-item {
+    height: 18vw;
+}
+.magnets .background-color-item {
+    height: 7vw;
 }
