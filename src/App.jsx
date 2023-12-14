@@ -1,6 +1,5 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import './App.css'
+import './App.scss'
 import Shop from './components/shop/Shop.jsx'
 
 function App() {
