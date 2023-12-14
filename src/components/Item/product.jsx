@@ -1,22 +1,36 @@
 import React, { useState } from "react";
-import { products } from "../../products";
+import { products } from "../../../products";
 import StarFilled from "/StarFilled.svg"
 import StarEmpty from "/StarEmpty.svg"
 import { ReactSVG } from "react-svg";
+import { useParams } from 'react-router-dom';
 
 const Product = () => {
+
+    const findProduct = (id, arr) => {
+        let item
+        for (let i = 0; i < arr.length; i++) {
+            item = arr[i].find(j => j.id === parseInt(id, 10));
+            if (item) {
+                break
+            }
+        }
+        return item
+    }
+    const { id } = useParams();
+    const product = findProduct(id, products)
     const [selectedNumber, setSelectedNumber] = useState(0)
-    const b1 = products[0][0]
-    const b2 = products[3][5]
+    console.log(products)
+    console.log(product)
     const colorStyle = {
-        color:b2.color
+        color: product.color
     }
     const borderStyle = {
-        border: "3px solid " + b2.color
+        border: "3px solid " + product.color
     }
     const addToCartStyle = {
-        border: "1.5px solid "+ b2.color,
-        backgroundColor: b2.color
+        border: "1.5px solid " + product.color,
+        backgroundColor: product.color
     }
     const rating = (n) => {
         
@@ -33,12 +47,12 @@ const Product = () => {
     return (
         <>
             <div className="Product-Container">
-                <img src={b2.image} alt={b1.name} className="Product-Image"/>
+                <img src={product.image} alt={product.name} className="Product-Image"/>
                 <div className="Product-Information">
-                    <h2 >{b2.name}</h2>
-                    <h3 style={colorStyle}>${b2.price}.00</h3>
-                    {rating(b2.rating)}
-                    <p>{b2.decription}</p>
+                    <h2 >{product.name}</h2>
+                    <h3 style={colorStyle}>${product.price}.00</h3>
+                    {rating(product.rating)}
+                    <p>{product.decription}</p>
                     <div className="Product-Buttons">
                         <div className="Number-Selector" style={borderStyle}>
                             <button onClick={()=>{setSelectedNumber(selectedNumber == 0 ? 0 : selectedNumber-1)}}>-</button>
@@ -46,6 +60,7 @@ const Product = () => {
                             <button onClick={()=>{setSelectedNumber(selectedNumber+1)}}>+</button>
                         </div>
                         <button className="Add-to-Cart" style={addToCartStyle}>Add to Cart</button>
+                        <button className="Customize-btn" style={addToCartStyle}>Customize</button>
                     </div>
                 </div>
             </div>

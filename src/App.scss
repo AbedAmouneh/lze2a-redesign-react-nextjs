@@ -135,3 +135,95 @@ button{
     height: 7vw;
 }
 
+.Product-Container {
+    font-family: poppins;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto 30px;
+    justify-content: center;
+    min-height: 600px;
+    .Rating-Container {
+        display: flex;
+        flex-direction: row;
+    }
+    .Product-Image {
+        width: 350px;
+        height: 100%;
+        object-fit: cover;
+        align-self: center;
+    }
+    .Product-Information {
+        max-width: 50%;
+        min-width: 300px;
+        align-self: center;
+        margin-left: 20px;
+    }
+    .Product-Information p {
+        max-width: 600px;
+        font-size: 1.25rem;
+    }
+    .Product-Buttons {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .Number-Selector {
+        display: flex;
+        flex-direction: row;
+        width: 175px;
+        height: 44px;
+        justify-content: space-around;
+        border-radius: 20px;
+        align-items: center;
+        font-size: 1.5rem;
+        margin-right: 10px;
+        margin-top: 5px;
+    }
+    .Number-Selector button {
+        background-color: inherit;
+        border: none;
+        font-size: 1.5rem;
+        height: 50px;
+        width: 20px;
+    }
+    .Add-to-Cart {
+        border-radius: 20px;
+        color: #FFF;
+        width: 180px;
+        height: 50px;
+        font-size: 1.5rem;
+        font-weight: 500;
+        margin-right: 10px;
+        margin-top: 5px;
+    }
+    .Customize-btn {
+        border-radius: 20px;
+        color: #FFF;
+        width: 180px;
+        height: 50px;
+        font-size: 1.5rem;
+        font-weight: 500;
+        margin-top: 5px;
+    }
+    h2 {
+        font-size: 2rem;
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+    h3 {
+        font-size: 1.8rem;
+        font-weight: 600;
+    }
+    svg {
+        width: 80%;
+    }
+    p {
+        margin: 20px 0;
+        font-weight: 400;
+        font-size: 0.7rem;
+    }
+}
+.Similar-Products h4 {
+    text-align: center;
+}
