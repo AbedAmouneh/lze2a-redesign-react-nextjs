@@ -1,42 +1,100 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+* {
+  padding: 0;
+  margin: 0;
+}
+img {
+  width: 60%;
+
+}
+.product {
+  width: 25%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: end;
+  
+}
+h1{
+  font-family: Poppins;
+}
+
+
+.product img {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+.product h2 {
+  justify-content: center;
+  align-self: center;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.item-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+.info {
+  justify-content: center;
   text-align: center;
+  font-family: Poppins;
+  width: 400px;
+}
+.info p {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.button-product {
+  text-decoration: none;
+  border: none;
+  background-color: white;
+  color: black;
+  font-weight: 600;
+}
+.shop-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 30%;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 30px;
+}
+.shop-row {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+button{
+  font-weight: bold;
+  font-size: large;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.TranslateY{
+  transform: translateY(5%);
+  font-weight:900 ;
+  font-size: xx-large;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#titleofthepage{
+    display: flex;
+    justify-content: center;
+    color: #000;
+    font-family: Inter;
+    font-size: 66px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal; 
 }
+.product img {
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
 }
-
-.card {
-  padding: 2em;
+.product .img-container {
+    
 }
+.background-color-item {
 
-.read-the-docs {
-  color: #888;
 }

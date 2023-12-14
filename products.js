@@ -462,6 +462,7 @@ const toteBags = [
         rating: 4
     }
 ]
+
 const magnets = [
     {
         id: 45,
@@ -500,6 +501,7 @@ const magnets = [
         rating: 4
     }
 ]
+
 export const products = [
     bottles,
     tumblers,
