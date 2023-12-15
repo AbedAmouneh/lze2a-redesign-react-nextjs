@@ -28,8 +28,11 @@ class RegisterModal extends React.Component {
     if (!isOpen) return null;
 
     return (
-      <div className="modal-overlay" onClick={onClose}>
+      <div className="modal-overlay">
         <div className="modal">
+          <button className="close-button" onClick={onClose}>
+            X
+          </button>
           <div className="modal-content">
             <div className="modal-header">
               <img className="logo" src="/logo.png" alt="Logo" />
@@ -66,8 +69,8 @@ class RegisterModal extends React.Component {
               <p
                 className="sign-in"
                 onClick={() => {
-                  onClose();
                   this.props.openLoginModal();
+                  onClose();
                 }}
               >
                 Sign in

@@ -21,7 +21,7 @@ function App() {
         openLoginModal={() => setIsLoginOpen(true)}
       />
       <BrowserRouter>
-        <Navbar openLoginModal={() => setIsLoginOpen(true)} />
+        <Navbar openRegisterModal={() => setIsRegisterOpen(true)} />
         <Routes>
           <Route path="/" exact element={<Shop />} />
           <Route path="/product/:id" element={<Product />} />

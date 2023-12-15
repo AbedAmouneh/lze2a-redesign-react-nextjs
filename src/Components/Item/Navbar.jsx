@@ -25,7 +25,7 @@ const Navbar = (props) => {
         <span
           className="icon"
           onClick={() => {
-            props.openLoginModal();
+            props.openRegisterModal();
           }}
         >
           <Icon icon="iconamoon:profile-fill" />
@@ -42,7 +42,7 @@ const Navbar = (props) => {
 };
 
 Navbar.propTypes = {
-  openLoginModal: propTypes.func.isRequired,
+  openRegisterModal: propTypes.func.isRequired,
 };
 
 export default Navbar;
