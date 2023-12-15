@@ -15,6 +15,7 @@ function ProductList({n}) {
                 price={item.price}
                 color={item.color}
                 category={item.category}
+                item={item}
             />))}
         </div>
 );

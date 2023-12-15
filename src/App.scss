@@ -115,6 +115,7 @@ button{
 .product img {
     width: 70%;
     margin-bottom: 5px;
+    
 }
 .product .img-container {
     display: flex;
@@ -141,6 +142,24 @@ button{
 .mirrors img {
     margin-bottom: 30px;
     margin-top: 30px;
+}
+.mirrors {
+    .Eyes {
+        height: 2.5vh;
+        position: absolute;
+        left: 4px;
+        transform: scaleX(20%);
+        z-index: 10;
+        top: -22px
+    }
+    .Bag {
+        height: 2.5vh;
+        position: absolute;
+        left: 4px;
+        transform: scaleX(14%);
+        z-index: 10;
+        top: 21px;
+    }
 }
 .earrings .background-color-item {
     height: 10vw;
@@ -336,5 +355,15 @@ font-size: 25px;
 font-family: Poppins;
 font-weight: 500;
 word-wrap: break-word
+    }
+}
+.popup-content {
+    left: 20px;
+    top: 0;
+    bottom: 0;
+    
+    .Product-Container {
+        background-color: #FFF;
+
     }
 }

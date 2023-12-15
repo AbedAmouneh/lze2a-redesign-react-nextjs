@@ -45,7 +45,7 @@ import AlHayatHelwaBagImg from "/AlHayatHelwaBag.png"
 import EvilEye2 from "/EvilEye2.png"
 import Chiclets from "/Chiclets.png"
 import AalHelweWelMorraMagnetImg from "/AalHelweWelMorraMagnet.png"
-import Tarboush from "/Tarboush.png"
+import TarboushImg from "/Tarboush.png"
 
 const bottles = [
     {
@@ -542,7 +542,7 @@ const magnets = [
         id: 48,
         name: "Tarboush",
         price: 4,
-        image: Tarboush,
+        image: TarboushImg,
         decription: "at augue eget arcu dictum varius duis at consectetur lorem donec massa sapien faucibus et molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget egestas purus viverra accumsan in nisl nisi scelerisque eu ultrices vitae auctor eu augue ut lectus arcu bibendum at varius vel pharetra vel turpis nunc eget lorem dolor.",
         color: "#ED6F22",
         rating: 4,
