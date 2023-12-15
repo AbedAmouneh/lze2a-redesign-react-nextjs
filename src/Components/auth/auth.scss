@@ -1,15 +1,15 @@
 .modal-overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.5);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 2000000;
-  
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2000000;
+
   .modal {
     background: #fff;
     border-radius: 8px;
@@ -19,7 +19,7 @@
     width: 427px;
     z-index: 99999;
   }
-  
+
   .close-button {
     background: none;
     border: none;
@@ -29,45 +29,45 @@
     right: 20px;
     font-size: 18px;
   }
-  
+
   .modal-content {
     text-align: center;
   }
-  
+
   .modal-header {
     margin-bottom: 20px;
 
     h2 {
-        color: #000;
-        font-family: Poppins;
-        font-size: 32px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        text-transform: uppercase;
+      color: #000;
+      font-family: Poppins;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      text-transform: uppercase;
     }
   }
-  
+
   .logo {
     max-width: 129px;
     height: auto;
   }
-  
+
   .form-group {
     margin-bottom: 20px;
   }
-  
+
   input {
     width: 344px;
     padding: 10px;
     margin-bottom: 10px;
     box-sizing: border-box;
     border-radius: 50px 50px 59px 50px;
-    border: 2px solid #FFC124;
+    border: 2px solid #ffc124;
     height: 49px;
     padding-left: 20px;
   }
-  
+
   .sign-in-button {
     color: #fff;
     padding: 10px;
@@ -77,22 +77,22 @@
     width: 344px;
     height: 49px;
     border-radius: 50px 50px 59px 50px;
-    border: 2px solid #FFC124;  
-    background: #FFC124;
+    border: 2px solid #ffc124;
+    background: #ffc124;
 
     &:hover {
       background: #fff;
-      color: #FFC124;
+      color: #ffc124;
       transition: 0.3s ease-in-out;
     }
 
     &:not(:hover) {
-      background: #FFC124;
+      background: #ffc124;
       color: #fff;
       transition: 0.3s ease-in-out;
     }
   }
-  
+
   .divider {
     display: flex;
     align-items: center;
@@ -101,11 +101,11 @@
     margin-top: 20px;
     margin-bottom: 20px;
   }
-  
+
   .line {
-    flex-grow:1;
+    flex-grow: 1;
     height: 2px;
-    background: #FFC124;
+    background: #ffc124;
     margin: 0 10px;
   }
 
@@ -118,11 +118,11 @@
     justify-content: center;
     margin-bottom: 30px;
   }
-  
+
   .social-buttons button {
     background: #fff;
     border-radius: 50px;
-    border: 2px solid #FFC124;
+    border: 2px solid #ffc124;
     padding: 10px;
     cursor: pointer;
     width: 344px;
@@ -131,39 +131,36 @@
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-  line-height: normal;
+    line-height: normal;
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-  img {
-    margin-right: 15px;
-    width: 24px;
+    img {
+      margin-right: 15px;
+      width: 24px;
+    }
   }
-  }
-  
 
   .register {
     h4 {
       color: #000;
-font-family: Poppins;
-font-size: 18px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
+      font-family: Poppins;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
     }
 
     p {
-      color: #A2A2A2;
-font-family: Poppins;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-text-decoration-line: underline;
+      color: #a2a2a2;
+      font-family: Poppins;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      text-decoration-line: underline;
     }
   }
 }
-
-  

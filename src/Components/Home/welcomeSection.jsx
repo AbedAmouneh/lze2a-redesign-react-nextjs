@@ -16,7 +16,10 @@ export const WelcomeSection = () => {
           personalized options, and a community that celebrates creativity.
           Unleash your imagination; let&apos;s color your world together!
         </p>
-        <Link to="/aboutus" className="cursor-pointer hover:bg-transparent hover:border-orange hover:text-black border-2 border-transparent animated bg-orange rounded-full text-white px-7 py-2">
+        <Link
+          to="/aboutus"
+          className="cursor-pointer hover:bg-transparent hover:border-orange hover:text-black border-2 border-transparent animated bg-orange rounded-full text-white px-7 py-2"
+        >
           Learn More
         </Link>
       </div>

@@ -29,8 +29,8 @@ export const OurProductsSection = () => {
       <OurProducts className="h-[90px] mx-auto mb-8" />
       <Carrousel slidesPerView={4}>
         {items.map((Items, index) => (
-          <Link to="/shop" key={index} >
-            <Items className="h-[180px]"/>
+          <Link to="/shop" key={index}>
+            <Items className="h-[180px]" />
           </Link>
         ))}
       </Carrousel>

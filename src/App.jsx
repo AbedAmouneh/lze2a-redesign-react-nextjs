@@ -25,13 +25,7 @@ function App() {
       />
       <Navbar openRegisterModal={() => setIsRegisterOpen(true)} />
       <Routes>
-        <Route
-          path="/"
-          exact
-          element={
-            <Home />
-          }
-        />
+        <Route path="/" exact element={<Home />} />
         <Route path="/shop" element={<Shop />} />
         <Route path="/product/:id" element={<Product />} />
         <Route path="/aboutus" element={<AboutUs />} />

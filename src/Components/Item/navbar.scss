@@ -1,10 +1,9 @@
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    background-color: #fff;
-
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #fff;
 
   .left-navbar {
     display: flex;
@@ -23,60 +22,60 @@
     width: 200px;
     transform: translateX(-150px);
   }
-  
-    .left-navbar, .right-navbar {
-      display: flex;
-      gap: 10px;
-  
-      a, .icon {
-        color: #000;
-        text-decoration: none;
-      }
 
-      a {
-        color: #000;
-        font-family: Poppins;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: normal;
-      }
+  .left-navbar,
+  .right-navbar {
+    display: flex;
+    gap: 10px;
 
-      .icon {
-        cursor: pointer;
-        font-size: 25px;
-
-        &:last-child {
-          margin-right: 10px;
-        }
-      }
+    a,
+    .icon {
+      color: #000;
+      text-decoration: none;
     }
-  
-    .center-navbar {
-      img {
-        max-width: 200px;
-        height: auto;
-        display: block;
 
-        transform: translateX(-3vw);
-      }
-    }
-  }
-
-
-  .top-navbar { 
-    background: #FFC124;;
-      display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-    p {
+    a {
       color: #000;
       font-family: Poppins;
-      font-size: 14px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: normal;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
     }
 
+    .icon {
+      cursor: pointer;
+      font-size: 25px;
+
+      &:last-child {
+        margin-right: 10px;
+      }
+    }
   }
+
+  .center-navbar {
+    img {
+      max-width: 200px;
+      height: auto;
+      display: block;
+
+      transform: translateX(-3vw);
+    }
+  }
+}
+
+.top-navbar {
+  background: #ffc124;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  p {
+    color: #000;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+}
