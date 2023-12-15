@@ -7,6 +7,7 @@ import LoginModal from "./Components/auth/Login/Login.jsx";
 import Navbar from "./Components/Item/Navbar.jsx";
 import RegisterModal from "./Components/auth/Register/Register.jsx";
 import { useState } from "react";
+import { Home } from "./Pages/Home.jsx";
 
 function App() {
   const [isLoginOpen, setIsLoginOpen] = useState(false);
@@ -26,9 +27,7 @@ function App() {
           path="/"
           exact
           element={
-            <div>
-              <h1>Home Page</h1>
-            </div>
+            <Home />
           }
         />
         <Route path="/shop" element={<Shop />} />

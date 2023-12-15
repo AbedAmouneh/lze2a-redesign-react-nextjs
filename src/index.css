@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.inter {
+  font-family: "Inter", sans-serif;
+}
+
+.poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+@layer utilities {
+  @keyframes dash-show {
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+
+  .animate-path {
+    animation: dash-show 1s ease forwards;
+  }
+}
+
+@layer components {
+  .animated {
+    @apply transition-all duration-300;
+  }
+}
