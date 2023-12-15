@@ -15,19 +15,4 @@ export default {
       },
     },
   },
-  // plugins: [
-  //   plugin(function ({ matchUtilities, theme }) {
-  //     matchUtilities(
-  //       {
-  //         // Class name
-  //         "animate-path": (value) => {
-  //           return {
-  //             "stroke-dasharray": value,
-  //           };
-  //         },
-  //       },
-  //       { values: ["1000"] }
-  //     );
-  //   }),
-  // ],
 };

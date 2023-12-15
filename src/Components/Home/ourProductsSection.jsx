@@ -8,6 +8,8 @@ import Popsocket from "../svg/popsocket";
 import Pouches from "../svg/pouches";
 import ToteBags from "../svg/toteBags";
 import Tumbler from "../svg/tumbler";
+import { Carrousel } from "../_common/Carrousel";
+import { Link } from "react-router-dom";
 
 const items = [
   Bottles,
@@ -23,14 +25,15 @@ const items = [
 
 export const OurProductsSection = () => {
   return (
-    <div className="flex flex-col py-14 gap-8 px-[100px] items-center justify-center bg-white">
-      <OurProducts className="h-[90px]" />
-
-      <div className="flex flex-row items-center justify-center gap-8">
+    <div className="py-14 gap-8 px-[100px] bg-white">
+      <OurProducts className="h-[90px] mx-auto mb-8" />
+      <Carrousel slidesPerView={4}>
         {items.map((Items, index) => (
-          <Items key={index} className="h-[200px]" />
+          <Link to="/shop" key={index} >
+            <Items className="h-[180px]"/>
+          </Link>
         ))}
-      </div>
+      </Carrousel>
     </div>
   );
 };

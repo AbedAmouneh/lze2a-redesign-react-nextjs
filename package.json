@@ -13,7 +13,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-svg": "^16.1.31",
-    "swiper": "^11.0.5"
+    "swiper": "^10.0.0"
   },
   "devDependencies": {
     "@iconify/react": "^4.1.1",

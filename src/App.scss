@@ -12,7 +12,7 @@ img {
   flex-wrap: wrap;
   justify-content: center;
   align-content: end;
-  
+  margin-bottom: 42px;
 }
 h1{
   font-family: Poppins;
@@ -93,12 +93,15 @@ button{
     }
 }
 .title-container {
+    position: relative;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
     svg {
         position: absolute;
         width: 400px;
         z-index: -1;
-        transform: translateX(-200px);
         margin-top: -20px;
     }
 }
@@ -139,8 +142,6 @@ button{
     height: 12vw
 }
 .mirrors img {
-    margin-bottom: 30px;
-    margin-top: 30px;
 }
 .earrings .background-color-item {
     height: 10vw;

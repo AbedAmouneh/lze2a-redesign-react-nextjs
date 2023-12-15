@@ -5,6 +5,7 @@ import StarEmpty from "/StarEmpty.svg"
 import { ReactSVG } from "react-svg";
 import { useParams } from 'react-router-dom';
 import ProductItem from "../shop/ProductItem";
+import { ShopTitle } from "../shop/title";
 
 const Product = () => {
 
@@ -21,8 +22,7 @@ const Product = () => {
     const { id } = useParams();
     const product = findProduct(id, products)
     const [selectedNumber, setSelectedNumber] = useState(0)
-    console.log(products)
-    console.log(product)
+
     const colorStyle = {
         color: product.color
     }
@@ -77,7 +77,7 @@ const Product = () => {
                 </div>
             </div>
             <div className="Similar-Products">
-                <div className="TranslateY">——— &nbsp; </div><h1> Similar Products </h1><div className="TranslateY">&nbsp; ———</div>
+            <ShopTitle>Similar Products</ShopTitle>
             </div>
             <div className="Featured-row">{getFeaturedArray(product).map((item,Index) =>(
             <ProductItem 
