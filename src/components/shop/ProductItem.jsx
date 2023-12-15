@@ -15,7 +15,7 @@ function ProductItem({name, image, price, id, color, category}){
         backgroundColor: bColor
     }
     return(
-        // <Link to={`/product/${id}`}>
+        //<Link to={`/product/${id}`}>
         <div className={"product " + category} onMouseEnter={showHover} onMouseLeave={hideHover}>
             <div className="img-container">
                 <img src={image} alt={name} />
@@ -27,7 +27,7 @@ function ProductItem({name, image, price, id, color, category}){
                 <button className="button-product">Add to cart 	&gt;&gt;</button>
             </div>
         </div>
-        // </Link>
+        //</Link>
     )
 } 
 export default ProductItem

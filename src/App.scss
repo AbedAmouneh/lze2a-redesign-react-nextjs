@@ -78,7 +78,16 @@ button{
   font-weight:900 ;
   font-size: xx-large;
 }
-
+.title-container {
+    text-align: center;
+    svg {
+        position: absolute;
+        width: 400px;
+        z-index: -1;
+        transform: translateX(-200px);
+        margin-top: -20px;
+    }
+}
 #titleofthepage{
     display: flex;
     justify-content: center;
@@ -148,10 +157,11 @@ button{
         flex-direction: row;
     }
     .Product-Image {
-        width: 350px;
+        width: 250px;
         height: 100%;
         object-fit: cover;
         align-self: center;
+        margin: 0 30px
     }
     .Product-Information {
         max-width: 50%;
@@ -223,6 +233,7 @@ button{
         font-weight: 400;
         font-size: 0.7rem;
     }
+
 }
 .Similar-Products h4 {
     text-align: center;

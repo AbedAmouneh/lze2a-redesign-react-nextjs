@@ -1,10 +1,15 @@
 import React, { useEffect, useState } from "react";
 import ProductList from "./ProductList";
+import Scribble from "/Scribble.svg"
+import { ReactSVG } from "react-svg";
 
 function Shop() {
   return (
     <>
-        <div><p id="titleofthepage">PRODUCTS</p></div> 
+        <div className="title-container">
+            <ReactSVG src={Scribble}></ReactSVG>
+            <p id="titleofthepage">PRODUCTS</p>
+        </div> 
         <div className="shop-container">
             <div className="TranslateY">———— &nbsp; </div><h1> Bottles </h1><div className="TranslateY">&nbsp; ————</div>
             <div className="shop-row">
