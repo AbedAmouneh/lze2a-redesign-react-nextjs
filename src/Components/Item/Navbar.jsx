@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom";
 import { Icon } from "@iconify/react";
 import "./Navbar.scss";
+import propTypes from "prop-types";
 
-const Navbar = () => {
+const Navbar = (props) => {
   return (
     <nav className="navbar">
       <div className="left-navbar">
@@ -21,7 +22,12 @@ const Navbar = () => {
         <span className="icon">
           <Icon icon="material-symbols:search" />
         </span>
-        <span className="icon">
+        <span
+          className="icon"
+          onClick={() => {
+            props.openLoginModal();
+          }}
+        >
           <Icon icon="iconamoon:profile-fill" />
         </span>
         <span className="icon">
@@ -33,6 +39,10 @@ const Navbar = () => {
       </div>
     </nav>
   );
+};
+
+Navbar.propTypes = {
+  openLoginModal: propTypes.func.isRequired,
 };
 
 export default Navbar;
