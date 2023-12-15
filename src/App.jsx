@@ -20,23 +20,21 @@ function App() {
         onClose={() => setIsRegisterOpen(false)}
         openLoginModal={() => setIsLoginOpen(true)}
       />
-      <BrowserRouter>
-        <Navbar openRegisterModal={() => setIsRegisterOpen(true)} />
-        <Routes>
-          <Route
-            path="/"
-            exact
-            element={
-              <div>
-                <h1>Home Page</h1>
-              </div>
-            }
-          />
-          <Route path="/shop" element={<Shop />} />
-          <Route path="/product/:id" element={<Product />} />
-          <Route path="/aboutus" element={<AboutUs />} />
-        </Routes>
-      </BrowserRouter>
+      <Navbar openRegisterModal={() => setIsRegisterOpen(true)} />
+      <Routes>
+        <Route
+          path="/"
+          exact
+          element={
+            <div>
+              <h1>Home Page</h1>
+            </div>
+          }
+        />
+        <Route path="/shop" element={<Shop />} />
+        <Route path="/product/:id" element={<Product />} />
+        <Route path="/aboutus" element={<AboutUs />} />
+      </Routes>
     </div>
   );
 }
