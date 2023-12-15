@@ -4,6 +4,7 @@ import StarFilled from "/StarFilled.svg"
 import StarEmpty from "/StarEmpty.svg"
 import { ReactSVG } from "react-svg";
 import { useParams } from 'react-router-dom';
+import ProductItem from "../shop/ProductItem";
 
 const Product = () => {
 
@@ -44,6 +45,17 @@ const Product = () => {
             </div>
         )
     }
+    const getFeaturedArray = (product) => {
+        let arr = []
+        for (let i = 0; i < products.length; i++) {
+            for (let j = 0; j < products[i].length; j++) {
+                if (products[i][j].id != product.id && products[i][j].category == product.category){
+                    arr.push(products[i][j])
+                }
+            }
+        }
+        return arr.splice(0,4)
+    }
     return (
         <>
             <div className="Product-Container">
@@ -65,8 +77,18 @@ const Product = () => {
                 </div>
             </div>
             <div className="Similar-Products">
-                <h4>—————— &nbsp; Similar Products &nbsp; ——————</h4>
+                <div className="TranslateY">——— &nbsp; </div><h1> Similar Products </h1><div className="TranslateY">&nbsp; ———</div>
             </div>
+            <div className="Featured-row">{getFeaturedArray(product).map((item,Index) =>(
+            <ProductItem 
+                key={Index}
+                id={item.id}
+                image={item.image}
+                name={item.name}
+                price={item.price}
+                color={item.color}
+                category={item.category}
+            />))}</div>
         </>
     )
 }
