@@ -2,7 +2,7 @@ import "./App.scss";
 import Shop from "./components/shop/Shop.jsx";
 import Product from "./components/Item/product.jsx";
 import AboutUs from "./Pages/AboutUsPage.jsx";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import LoginModal from "./Components/auth/Login/Login.jsx";
 import Navbar from "./Components/Item/Navbar.jsx";
 import RegisterModal from "./Components/auth/Register/Register.jsx";
@@ -20,23 +20,21 @@ function App() {
         onClose={() => setIsRegisterOpen(false)}
         openLoginModal={() => setIsLoginOpen(true)}
       />
-      <BrowserRouter>
-        <Navbar openRegisterModal={() => setIsRegisterOpen(true)} />
-        <Routes>
-          <Route
-            path="/"
-            exact
-            element={
-              <div>
-                <h1>Home Page</h1>
-              </div>
-            }
-          />
-          <Route path="/shop" element={<Shop />} />
-          <Route path="/product/:id" element={<Product />} />
-          <Route path="/aboutus" element={<AboutUs />} />
-        </Routes>
-      </BrowserRouter>
+      <Navbar openRegisterModal={() => setIsRegisterOpen(true)} />
+      <Routes>
+        <Route
+          path="/"
+          exact
+          element={
+            <div>
+              <h1>Home Page</h1>
+            </div>
+          }
+        />
+        <Route path="/shop" element={<Shop />} />
+        <Route path="/product/:id" element={<Product />} />
+        <Route path="/aboutus" element={<AboutUs />} />
+      </Routes>
     </div>
   );
 }
