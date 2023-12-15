@@ -2,10 +2,11 @@ import React from "react";
 import PropTypes from "prop-types";
 import "../auth.scss";
 
-class LoginModal extends React.Component {
+class RegisterModal extends React.Component {
   static propTypes = {
     isOpen: PropTypes.bool.isRequired,
     onClose: PropTypes.func.isRequired,
+    openLoginModal: PropTypes.func.isRequired,
   };
 
   constructor(props) {
@@ -13,6 +14,7 @@ class LoginModal extends React.Component {
     this.state = {
       username: "",
       password: "",
+      email: "",
     };
   }
 
@@ -34,12 +36,19 @@ class LoginModal extends React.Component {
           <div className="modal-content">
             <div className="modal-header">
               <img className="logo" src="/logo.png" alt="Logo" />
-              <h2>Sign In</h2>
+              <h2>CREATE ACCOUNT</h2>
             </div>
 
             <div className="form-group">
               <input
                 type="text"
+                placeholder="Email Address"
+                name="username"
+                value={this.state.email}
+                onChange={this.handleInputChange}
+              />
+              <input
+                type="password"
                 placeholder="Username"
                 name="username"
                 value={this.state.username}
@@ -52,7 +61,20 @@ class LoginModal extends React.Component {
                 value={this.state.password}
                 onChange={this.handleInputChange}
               />
-              <button className="sign-in-button">Sign In</button>
+              <button className="sign-in-button">Create Account!</button>
+            </div>
+
+            <div className="register">
+              <h4>Already have an account?</h4>
+              <p
+                className="sign-in"
+                onClick={() => {
+                  this.props.openLoginModal();
+                  onClose();
+                }}
+              >
+                Sign in
+              </p>
             </div>
 
             <div className="divider">
@@ -78,4 +100,4 @@ class LoginModal extends React.Component {
   }
 }
 
-export default LoginModal;
+export default RegisterModal;
