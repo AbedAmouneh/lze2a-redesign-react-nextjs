@@ -45,7 +45,7 @@
 
       .icon {
         cursor: pointer;
-        font-size: 20px;
+        font-size: 25px;
 
         &:last-child {
           margin-right: 10px;
@@ -55,7 +55,7 @@
   
     .center-navbar {
       img {
-        max-width: 129px;
+        max-width: 200px;
         height: auto;
         display: block;
 
@@ -65,7 +65,7 @@
   }
 
 
-  .top-navbar {
+  .top-navbar { 
     background: #FFC124;;
       display: flex;
     align-items: center;
