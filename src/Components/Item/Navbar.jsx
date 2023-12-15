@@ -12,7 +12,7 @@ const Navbar = (props) => {
       <nav className="navbar">
         <div className="left-navbar">
           <Link to="/">Home</Link>
-          <Link to="/about">About Us</Link>
+          <Link to="/aboutus">About Us</Link>
           <Link to="/contact">Contact Us</Link>
         </div>
         <div className="center-navbar ">
