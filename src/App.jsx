@@ -11,7 +11,6 @@ function App() {
 
     return (
         <div>
-            <AboutUs></AboutUs>
             <BrowserRouter>
                 <Routes>
                     <Route path="/" exact element={<Shop/>} />
